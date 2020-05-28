@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+
+    font-family: sans-serif;
+    
+}
+
+
+#calculadora{
+    width: 340px;
+    height: 570px;
+    background-color: #eaedef;
+    margin:  0 auto;
+    top: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#title{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#resultado{
+    height: 120px;
+}
+
+
+.vsaida{
+    text-align: right;
+    height: 60px;
+    width: 275px;
+    margin: 10px 20px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+}
+
+.teclado{
+    height: 400px;
+    
+}
+
+
+.botaoAux, .numero, .limpar, .divisao, .soma, .multiplicacao, .subtracao, .igual{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.divisao{
+    font-size: 20px;
+	background-color: #70D6FF;
+}
+
+.soma{
+    font-size: 20px;
+	background-color: #FFD670;
+}
+
+.multiplicacao{
+    font-size: 20px;
+	background-color: #FF70A6;
+}
+
+.subtracao{
+    font-size: 20px;
+	background-color: #FF9770;
+}
+
+.igual{
+    font-size: 20px;
+	background-color: #E9FF70;
+}
+
+.numero{
+    background-color: #eaedef;
+}
+
+.numero, .botaoAux, .limpar, .divisao, .soma, .multiplicacao, .igual, .subtracao{
+    cursor: pointer;
+}
+
+.botaoAux:active, .numero:active, .limpar:active, .divisao:active, .soma:active, .multiplicacao:active, .subtracao:active, .igual:active{
+    font-size: 13px;
+}
+
+.botaoAux:focus, .numero:focus, .vazio:focus, .limpar:focus, .divisao:focus, .soma:focus, .multiplicacao:focus, .subtracao:focus, .igual:focus{
+    outline: 0;
+}
+
